@@ -7,6 +7,7 @@
 //
 
 #import "DSViewController.h"
+#import <SimpleMBProgressHUD/MBProgressHUD+Expand.h>
 
 @interface DSViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [MBProgressHUD showLoading:@"你来咬我呀"];
 }
 
 - (void)didReceiveMemoryWarning

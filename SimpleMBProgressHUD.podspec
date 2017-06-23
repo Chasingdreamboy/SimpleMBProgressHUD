@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleMBProgressHUD'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of SimpleMBProgressHUD.'
 
 # This description is used to generate tags and improve search results.
@@ -18,25 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+The MBProgressHUD for SDK.
                        DESC
 
-  s.homepage         = 'https://github.com/acct<blob>=<NULL>/SimpleMBProgressHUD'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/Chasingdreamboy/SimpleMBProgressHUD'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'acct<blob>=<NULL>' => 'wangerdong@treefinance.com.cn' }
-  s.source           = { :git => 'https://github.com/acct<blob>=<NULL>/SimpleMBProgressHUD.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'EriceWang' => 'wangerdong@treefinance.com.cn' }
+  s.source           = { :git => 'https://github.com/Chasingdreamboy/SimpleMBProgressHUD.git', :tag => s.version.to_s }
+
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SimpleMBProgressHUD/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SimpleMBProgressHUD' => ['SimpleMBProgressHUD/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'SimpleMBProgressHUD/MBProgressHUD/**/*','SimpleMBProgressHUD/MBProgressHUD+Expand/**/*'
+  s.public_header_files = 'SimpleMBProgressHUD/MBProgressHUD/**/*.h','SimpleMBProgressHUD/MBProgressHUD+Expand/**/*.h'
+  s.frameworks = 'UIKit'
+  s.dependency 'FontAwesomeKit/IonIcons', '~> 2.2.0'
 end

@@ -1,0 +1,21 @@
+PODS:
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - SimpleMBProgressHUD (0.0.1):
+    - FontAwesomeKit/IonIcons (~> 2.2.0)
+
+DEPENDENCIES:
+  - SimpleMBProgressHUD (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleMBProgressHUD:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  SimpleMBProgressHUD: b812d8a1e51c19180aaf9adc364b0563359deda9
+
+PODFILE CHECKSUM: 4dd504ab8ccd6c359dc026af139652bd35930282
+
+COCOAPODS: 1.2.1
