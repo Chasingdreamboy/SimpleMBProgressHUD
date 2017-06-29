@@ -32,5 +32,5 @@ The MBProgressHUD for SDK.
   s.source_files = 'SimpleMBProgressHUD/MBProgressHUD/**/*','SimpleMBProgressHUD/MBProgressHUD+Expand/**/*'
   s.public_header_files = 'SimpleMBProgressHUD/MBProgressHUD/**/*.h','SimpleMBProgressHUD/MBProgressHUD+Expand/**/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'FontAwesomeKit/IonIcons', '~> 2.2.0'
+  s.dependency 'SimpleFontAwesomeKit'
 end
