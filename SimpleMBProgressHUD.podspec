@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleMBProgressHUD'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of SimpleMBProgressHUD.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ The MBProgressHUD for SDK.
 
 
   s.ios.deployment_target = '8.0'
-
+s.xcconfig = {'GENERATE_DEBUG_SYMBOLS' => 'NO'}
   s.source_files = 'SimpleMBProgressHUD/MBProgressHUD/**/*','SimpleMBProgressHUD/MBProgressHUD+Expand/**/*'
   s.public_header_files = 'SimpleMBProgressHUD/MBProgressHUD/**/*.h','SimpleMBProgressHUD/MBProgressHUD+Expand/**/*.h'
   s.frameworks = 'UIKit'
