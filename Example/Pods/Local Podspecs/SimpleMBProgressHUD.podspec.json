@@ -28,8 +28,8 @@
   ],
   "frameworks": "UIKit",
   "dependencies": {
-    "FontAwesomeKit/IonIcons": [
-      "~> 2.2.0"
+    "SimpleFontAwesomeKit": [
+
     ]
   }
 }

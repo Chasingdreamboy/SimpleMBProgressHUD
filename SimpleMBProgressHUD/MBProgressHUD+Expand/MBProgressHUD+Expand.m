@@ -7,7 +7,7 @@
 //
 
 #import "MBProgressHUD+Expand.h"
-#import <FontAwesomeKit/FAKIonIcons.h>
+#import <SimpleFontAwesomeKit/FAKIonIcons.h>
 @implementation MBProgressHUD(Expand)
 
 +(UIWindow*)getWindow{

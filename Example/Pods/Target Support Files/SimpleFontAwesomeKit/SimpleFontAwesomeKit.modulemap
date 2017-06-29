@@ -1,0 +1,6 @@
+framework module SimpleFontAwesomeKit {
+  umbrella header "SimpleFontAwesomeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

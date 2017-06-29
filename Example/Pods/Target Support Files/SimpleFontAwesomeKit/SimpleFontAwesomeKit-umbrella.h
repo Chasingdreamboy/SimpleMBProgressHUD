@@ -13,6 +13,6 @@
 #import "FAKIcon.h"
 #import "FAKIonIcons.h"
 
-FOUNDATION_EXPORT double FontAwesomeKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char FontAwesomeKitVersionString[];
+FOUNDATION_EXPORT double SimpleFontAwesomeKitVersionNumber;
+FOUNDATION_EXPORT const unsigned char SimpleFontAwesomeKitVersionString[];
 

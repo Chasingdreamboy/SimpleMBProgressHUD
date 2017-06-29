@@ -21,7 +21,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [MBProgressHUD showLoading:@"你来咬我呀"];
+//    [MBProgressHUD showLoading:@"你来咬我呀"];
+    [MBProgressHUD showSuccess:@"AAAA" withDuration:1.2];
 }
 
 - (void)didReceiveMemoryWarning

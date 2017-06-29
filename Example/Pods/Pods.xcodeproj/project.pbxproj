@@ -7,129 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06A26A9492E3D6CAF53BF8F383A9EC02 /* Pods-SimpleMBProgressHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E924DA6D54E93AD37828D66377431C /* Pods-SimpleMBProgressHUD_Example-dummy.m */; };
-		0E9B4A18E7EB486E1A38D14C27B9FA4A /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F25DE2958822BE8A93D3BEC8E3B335 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		298FFB52FF03DEF39254B497F8DC8346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B9F201B76984029E71D15533FC1A54 /* Foundation.framework */; };
-		2F9F543317E2B239E6F414615F706E90 /* SimpleMBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24134D7CE0B54B2305CBD7D864FA7671 /* SimpleMBProgressHUD-dummy.m */; };
-		308866A782E804269CC80F48710FC83E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABD074D3DBED851F33EC216C0286715 /* UIKit.framework */; };
-		32FAC718084E21F67BB0018A6DCE8785 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FD83EF48DCC1931FF56DCD5A3FFE12 /* CoreText.framework */; };
-		39C7A794E239A19382E09B80F37EA346 /* MBProgressHUD+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = 0384DE7B8E097464A32797BA6FACA4AD /* MBProgressHUD+Expand.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EF947EF622029D817A5684CD7E74A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B9F201B76984029E71D15533FC1A54 /* Foundation.framework */; };
+		05A3B2DCFBC8F52A61B3F74D7E34985C /* SimpleFontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7345E431F89AF4D94CF338D1A078FA98 /* SimpleFontAwesomeKit-dummy.m */; };
+		1640A8C66033C7611E6F756D1A4FA46F /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7CB77C7162AA89340EEA7DE5C717F1 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34CF40FB3E5B5FD27FAD3F06CFFFE49B /* SimpleFontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D49E6F1196837778D11DB7568983240B /* SimpleFontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40781B8A577FB6D13908C262DBE3F344 /* SimpleFontAwesomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D878EE848EABE844B9B7044C2DA63D /* SimpleFontAwesomeKit.framework */; };
+		4975490B96B40298417A3A4BF26A74D1 /* SimpleMBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24134D7CE0B54B2305CBD7D864FA7671 /* SimpleMBProgressHUD-dummy.m */; };
+		5D271039548BA0263436ED2D2A774F26 /* Pods-SimpleMBProgressHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E924DA6D54E93AD37828D66377431C /* Pods-SimpleMBProgressHUD_Example-dummy.m */; };
+		5EF947EF622029D817A5684CD7E74A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A51557CADEABF1D4108758BC003F5B /* Foundation.framework */; };
+		616BBD5535A2A8B603332921767C3204 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F25DE2958822BE8A93D3BEC8E3B335 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67B67F102AF3B6491BD6161DD8933312 /* Pods-SimpleMBProgressHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD31D451DC6F39A9856092BCCBF39F16 /* Pods-SimpleMBProgressHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A6F70CD97541314C8004F6755550B75 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 08914D8E6B13D21282B2CFE88E75FC9B /* MBProgressHUD.m */; };
-		815ED01F8659BB6D036A73C6A477DD9A /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEE6CC6C21B1B4B3B9F2BF6E4F26F4 /* FAKIonIcons.m */; };
+		7EFF4760211CAAF4FA963BF5DF1688C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336D01C163E2F9825F3DC831E32AF1C4 /* UIKit.framework */; };
+		810EADEAE3D5CB2C9554F26B71A2C86C /* MBProgressHUD+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FA7BABA545B4EE1FFD19B688903C9D /* MBProgressHUD+Expand.m */; };
 		82B672FD66551A40D2FA3214D1980A77 /* Pods-SimpleMBProgressHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215BBD0A50F60A4A146073E711F8FEE /* Pods-SimpleMBProgressHUD_Tests-dummy.m */; };
-		9131C6AA75E3CB7033C9F9B18CA3BE03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABD074D3DBED851F33EC216C0286715 /* UIKit.framework */; };
-		96C5E898541CEDCA7ACA7BFAB01E7BBA /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAE59CF539E544B9FD5FA6EDABC448C3 /* ionicons.ttf */; };
-		A9EC4D0E3B9C61E2A74B71E1BDCA213B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B9F201B76984029E71D15533FC1A54 /* Foundation.framework */; };
-		BE4F2D0339FC8EF1A8C1DBCFF302A2EF /* SimpleMBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AFB5CF7AE42265B4D11394D7D39BF5 /* SimpleMBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C968198854F568BB044F2C797E5D0819 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 865467F6340F8C1BB1CE4EF117C19753 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC30DC30DDBE96C5D090756ADC2E813E /* Pods-SimpleMBProgressHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF53905BD1BBE57445CEC8CE37356A78 /* Pods-SimpleMBProgressHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE6B55E53F3381842315E2CF37FFECE9 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE555D353E801FC8FA69EA4BF17C5E /* FAKIcon.m */; };
-		D7240C95290E22DCF232062E33A138E0 /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB7550CC7AEBA77CB232650F508E88D /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD45E071C672233327D931E2D5C60D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B9F201B76984029E71D15533FC1A54 /* Foundation.framework */; };
-		E3AE989BA28A8DD878511F2BE2727038 /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 522F2AA079FC759125B697FBDF78124C /* FontAwesomeKit-dummy.m */; };
-		E9AF8E9957055918632D47D92636EE6D /* FontAwesomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A66172ABD374410F29E2EA00736941 /* FontAwesomeKit.framework */; };
-		F3A9A579090807A4E654A20F5EF6E476 /* FontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED2CCBA664A41543CA3B642C9EF644B /* FontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F502DA7F2ED59BD28BBD7224F5F2ACD0 /* MBProgressHUD+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FA7BABA545B4EE1FFD19B688903C9D /* MBProgressHUD+Expand.m */; };
+		885A54F749E16DAB653D939A3B2ABF55 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = FD76092DE1B71BDB2842006471305535 /* FAKIonIcons.m */; };
+		8D48A1011AA4F2FEC4F54E8285192CC8 /* Pods-SimpleMBProgressHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF53905BD1BBE57445CEC8CE37356A78 /* Pods-SimpleMBProgressHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2205836158FAC7E642C4D8CA71D83FD /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC53AB2EFFEF9EE9BDC69CD644C3D38 /* FAKIcon.m */; };
+		B5A6A0BBA2FF590D0DD276AB1DB91AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A51557CADEABF1D4108758BC003F5B /* Foundation.framework */; };
+		B957B06B243C43047D168ECF0C0FEE98 /* SimpleMBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AFB5CF7AE42265B4D11394D7D39BF5 /* SimpleMBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB1D2971655FBDF02491612BE761D7E1 /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7A7F5F96537CFAF771077E1E2EEF7 /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1CE2962780F99FD974422F789C478A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A51557CADEABF1D4108758BC003F5B /* Foundation.framework */; };
+		C7202D1C7FBBB13EFF41B96E04BB7AB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A51557CADEABF1D4108758BC003F5B /* Foundation.framework */; };
+		E647A6BE348FC327D28D8F9C302BD7E8 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFA20F4B397315809C634B707530FFC1 /* ionicons.ttf */; };
+		F716BB73255FF7B97BA9CA1E47EC0F46 /* MBProgressHUD+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = 0384DE7B8E097464A32797BA6FACA4AD /* MBProgressHUD+Expand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD5C299234B765501D66D9AF62A78C42 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 08914D8E6B13D21282B2CFE88E75FC9B /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		71ECF8AE16D47F36204FEAB14CD074F2 /* PBXContainerItemProxy */ = {
+		48F88C26ABFE31C44FA77FF28FCB8A7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55ED37F967A56989C2D2F8DF0710085D;
+			remoteGlobalIDString = 202E83E804F0BD5DF9C3697EB9CB02F3;
+			remoteInfo = SimpleFontAwesomeKit;
+		};
+		BBFB324EE7A477DCB7E313C7572B90D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202E83E804F0BD5DF9C3697EB9CB02F3;
+			remoteInfo = SimpleFontAwesomeKit;
+		};
+		CCB9BB23CCF751FC27A205AE97ED9F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E63D90E2D3C9571A599BAB52B51015E;
 			remoteInfo = SimpleMBProgressHUD;
-		};
-		8E51A7D0E33A69D8CC5278772A631DF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86832B91E801BCA93835CF7A9B3E1167;
-			remoteInfo = FontAwesomeKit;
-		};
-		CF3A62ECD3DA5A1C655779E3E934C70C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86832B91E801BCA93835CF7A9B3E1167;
-			remoteInfo = FontAwesomeKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B9F201B76984029E71D15533FC1A54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0384DE7B8E097464A32797BA6FACA4AD /* MBProgressHUD+Expand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Expand.h"; sourceTree = "<group>"; };
 		03D35CBDD065CB73D3192341B6ED8396 /* SimpleMBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleMBProgressHUD.modulemap; sourceTree = "<group>"; };
-		03EE555D353E801FC8FA69EA4BF17C5E /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
 		071D3AD22AD1F36EE3C384ABA5C2DD37 /* Pods-SimpleMBProgressHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleMBProgressHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		08914D8E6B13D21282B2CFE88E75FC9B /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		08AFB5CF7AE42265B4D11394D7D39BF5 /* SimpleMBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleMBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		0BC53AB2EFFEF9EE9BDC69CD644C3D38 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = SimpleFontAwesomeKit/Classes/FAKIcon.m; sourceTree = "<group>"; };
 		107535CE2C1A715F6CC3292E6EFC6C6B /* Pods-SimpleMBProgressHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleMBProgressHUD_Tests.modulemap"; sourceTree = "<group>"; };
+		1FDF3893E8E342EA6CF7DA8937BD40DE /* SimpleMBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleMBProgressHUD.framework; path = SimpleMBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2075966956504C6E90E622E7CA6D5360 /* Pods-SimpleMBProgressHUD_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleMBProgressHUD_Tests-resources.sh"; sourceTree = "<group>"; };
 		24134D7CE0B54B2305CBD7D864FA7671 /* SimpleMBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleMBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		25FA7BABA545B4EE1FFD19B688903C9D /* MBProgressHUD+Expand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Expand.m"; sourceTree = "<group>"; };
-		26A66172ABD374410F29E2EA00736941 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		276FC06AEE19CFF5C5EE94EEDB1F7378 /* Pods-SimpleMBProgressHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleMBProgressHUD_Example.modulemap"; sourceTree = "<group>"; };
-		2A481B2D1F130B579BD27B0C13941389 /* FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesomeKit.modulemap; sourceTree = "<group>"; };
 		2FAF17E25D84ECE2FFE6FAF2C31A740B /* Pods-SimpleMBProgressHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleMBProgressHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		336D01C163E2F9825F3DC831E32AF1C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3E8628FA5D5F9CA13058637A47C05806 /* Pods-SimpleMBProgressHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleMBProgressHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3EB7550CC7AEBA77CB232650F508E88D /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
-		46B65C3605706C5BC67AAAAB4FE3B7EE /* Pods_SimpleMBProgressHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleMBProgressHUD_Example.framework; path = "Pods-SimpleMBProgressHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C7A7F5F96537CFAF771077E1E2EEF7 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = SimpleFontAwesomeKit/Classes/FAKIonIcons.h; sourceTree = "<group>"; };
 		5215BBD0A50F60A4A146073E711F8FEE /* Pods-SimpleMBProgressHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleMBProgressHUD_Tests-dummy.m"; sourceTree = "<group>"; };
-		522F2AA079FC759125B697FBDF78124C /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
-		5ABD074D3DBED851F33EC216C0286715 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		602ED85055F840CC57CBE38BA62A2F86 /* Pods_SimpleMBProgressHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleMBProgressHUD_Tests.framework; path = "Pods-SimpleMBProgressHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6108F3F7DC63ABDA468AFFEE49762058 /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		59ED701EF6A3B955AEF4BC6A6246FC2C /* SimpleFontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleFontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
 		62F10D3A84E4E24A84A556654E495597 /* Pods-SimpleMBProgressHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleMBProgressHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA1F67EF0804652A1812376ACF71789 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F1AE3257BEA4C8003A115184863B301 /* Pods-SimpleMBProgressHUD_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleMBProgressHUD_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		731E93EA6D4AF2575D4279A11B2DA363 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		865467F6340F8C1BB1CE4EF117C19753 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		7345E431F89AF4D94CF338D1A078FA98 /* SimpleFontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleFontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
 		8810D23B8FAEFE0DCB5EC0B37BD17F01 /* Pods-SimpleMBProgressHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleMBProgressHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CDEE6CC6C21B1B4B3B9F2BF6E4F26F4 /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
 		8D20DF89BC78F286F9DF5332A6540E03 /* Pods-SimpleMBProgressHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleMBProgressHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8ED2CCBA664A41543CA3B642C9EF644B /* FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97F25DE2958822BE8A93D3BEC8E3B335 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		9856FB438DC219802D047A1D8E648BF8 /* SimpleMBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleMBProgressHUD.framework; path = SimpleMBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9858B015BD97F31AD482EA4E35D36057 /* Pods-SimpleMBProgressHUD_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleMBProgressHUD_Example-resources.sh"; sourceTree = "<group>"; };
 		9D49536598956655CAD404323973CD22 /* Pods-SimpleMBProgressHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleMBProgressHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A69D428E6AB8CE34AC2A0DFFCA91C36F /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
+		A75C874D02A22BF7E7C925E6EC678ECB /* Pods_SimpleMBProgressHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleMBProgressHUD_Example.framework; path = "Pods-SimpleMBProgressHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76A3633EDFDA7500212440779927958 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9E924DA6D54E93AD37828D66377431C /* Pods-SimpleMBProgressHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleMBProgressHUD_Example-dummy.m"; sourceTree = "<group>"; };
-		AAE59CF539E544B9FD5FA6EDABC448C3 /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		B7A51557CADEABF1D4108758BC003F5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BD31D451DC6F39A9856092BCCBF39F16 /* Pods-SimpleMBProgressHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleMBProgressHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C39E086089B0CC0F35809BC5923E0CA4 /* SimpleFontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleFontAwesomeKit.xcconfig; sourceTree = "<group>"; };
 		C4B352EB4CAB6920990FFEDCA439028D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCA59067D4B04B738839B46F6DBAB761 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA86ED741ED732EBC3F22EB2628F374 /* SimpleMBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleMBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		D49E6F1196837778D11DB7568983240B /* SimpleFontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleFontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
 		DF53905BD1BBE57445CEC8CE37356A78 /* Pods-SimpleMBProgressHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleMBProgressHUD_Example-umbrella.h"; sourceTree = "<group>"; };
+		DF5D45DDD0FEB50ED99F6A1D1E737537 /* SimpleFontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleFontAwesomeKit.modulemap; sourceTree = "<group>"; };
+		DF7CB77C7162AA89340EEA7DE5C717F1 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = SimpleFontAwesomeKit/Classes/FAKIcon.h; sourceTree = "<group>"; };
 		E3EDBF87F3EDD4ACFEC75D7686161AB4 /* SimpleMBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleMBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		E451D55019B575512B538FF2F8BDDF3D /* Pods-SimpleMBProgressHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleMBProgressHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E8A78B826B08287C95EA9DAC37107192 /* Pods-SimpleMBProgressHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleMBProgressHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E9FD83EF48DCC1931FF56DCD5A3FFE12 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		EC1FA68A09ED74A4CDB428C830382FF4 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeKit.framework; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE50B17650CE6F4660574B6872CAAA58 /* SimpleFontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleFontAwesomeKit.framework; path = SimpleFontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAFCDEBDCFE69740AA941420530C07F /* Pods_SimpleMBProgressHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleMBProgressHUD_Tests.framework; path = "Pods-SimpleMBProgressHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D878EE848EABE844B9B7044C2DA63D /* SimpleFontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleFontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD76092DE1B71BDB2842006471305535 /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = SimpleFontAwesomeKit/Classes/FAKIonIcons.m; sourceTree = "<group>"; };
+		FFA20F4B397315809C634B707530FFC1 /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = SimpleFontAwesomeKit/Assets/ionicons.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		59A24969D39BCC0A13CB43EBE8E1AD57 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				32FAC718084E21F67BB0018A6DCE8785 /* CoreText.framework in Frameworks */,
-				298FFB52FF03DEF39254B497F8DC8346 /* Foundation.framework in Frameworks */,
-				308866A782E804269CC80F48710FC83E /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71ED747C84F2F3611DEC9CB973777BE3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9EC4D0E3B9C61E2A74B71E1BDCA213B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE345DC0F9702D64ACA023D548EC68F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,13 +117,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E888F0A2312F7F627AC4935903BC7B1E /* Frameworks */ = {
+		B227BF1E447F1C9ADAD2210E8DF3D2BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9AF8E9957055918632D47D92636EE6D /* FontAwesomeKit.framework in Frameworks */,
-				DD45E071C672233327D931E2D5C60D2D /* Foundation.framework in Frameworks */,
-				9131C6AA75E3CB7033C9F9B18CA3BE03 /* UIKit.framework in Frameworks */,
+				C7202D1C7FBBB13EFF41B96E04BB7AB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD506AAFF979C1FC96CF96582F968BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CE2962780F99FD974422F789C478A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8A5193E198CE9710A4080B91102F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A6A0BBA2FF590D0DD276AB1DB91AFC /* Foundation.framework in Frameworks */,
+				40781B8A577FB6D13908C262DBE3F344 /* SimpleFontAwesomeKit.framework in Frameworks */,
+				7EFF4760211CAAF4FA963BF5DF1688C4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,20 +154,6 @@
 			);
 			name = SimpleMBProgressHUD;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		099E1AB73CBACB214DE48E1BA47EB7C8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A481B2D1F130B579BD27B0C13941389 /* FontAwesomeKit.modulemap */,
-				A69D428E6AB8CE34AC2A0DFFCA91C36F /* FontAwesomeKit.xcconfig */,
-				522F2AA079FC759125B697FBDF78124C /* FontAwesomeKit-dummy.m */,
-				6108F3F7DC63ABDA468AFFEE49762058 /* FontAwesomeKit-prefix.pch */,
-				8ED2CCBA664A41543CA3B642C9EF644B /* FontAwesomeKit-umbrella.h */,
-				CCA59067D4B04B738839B46F6DBAB761 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FontAwesomeKit";
 			sourceTree = "<group>";
 		};
 		190393F672D1285E727EA1442806F840 /* Targets Support Files */ = {
@@ -202,65 +183,67 @@
 			path = "Target Support Files/Pods-SimpleMBProgressHUD_Tests";
 			sourceTree = "<group>";
 		};
+		5F3C483480ADEADE65E4ED0C5D62064F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D878EE848EABE844B9B7044C2DA63D /* SimpleFontAwesomeKit.framework */,
+				88A0982239DDAC23FAF43434CA1DD765 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D718D5BE9A97FEE63700881B5023FD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A75C874D02A22BF7E7C925E6EC678ECB /* Pods_SimpleMBProgressHUD_Example.framework */,
+				EFAFCDEBDCFE69740AA941420530C07F /* Pods_SimpleMBProgressHUD_Tests.framework */,
+				EE50B17650CE6F4660574B6872CAAA58 /* SimpleFontAwesomeKit.framework */,
+				1FDF3893E8E342EA6CF7DA8937BD40DE /* SimpleMBProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79AD7807F69B71BA04A2584CECB6A99E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BA1F67EF0804652A1812376ACF71789 /* Info.plist */,
+				DF5D45DDD0FEB50ED99F6A1D1E737537 /* SimpleFontAwesomeKit.modulemap */,
+				C39E086089B0CC0F35809BC5923E0CA4 /* SimpleFontAwesomeKit.xcconfig */,
+				7345E431F89AF4D94CF338D1A078FA98 /* SimpleFontAwesomeKit-dummy.m */,
+				59ED701EF6A3B955AEF4BC6A6246FC2C /* SimpleFontAwesomeKit-prefix.pch */,
+				D49E6F1196837778D11DB7568983240B /* SimpleFontAwesomeKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleFontAwesomeKit";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				EA41E85A7A4A7101F442DC0DADD96096 /* Development Pods */,
-				9B37E047C77ED8F25CA5021294A49BE8 /* Frameworks */,
-				D4B2DA62A0B401F4562793C03940650F /* Pods */,
-				C0E250332C92A132C17025315EB6FD59 /* Products */,
+				5F3C483480ADEADE65E4ED0C5D62064F /* Frameworks */,
+				EFB67C17F18FB75AE2832EB33A928F74 /* Pods */,
+				6D718D5BE9A97FEE63700881B5023FD5 /* Products */,
 				190393F672D1285E727EA1442806F840 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8DF4472832BA5B6AD3FCC65286DE4A19 /* Core */ = {
+		88A0982239DDAC23FAF43434CA1DD765 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				865467F6340F8C1BB1CE4EF117C19753 /* FAKIcon.h */,
-				03EE555D353E801FC8FA69EA4BF17C5E /* FAKIcon.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		9B37E047C77ED8F25CA5021294A49BE8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				26A66172ABD374410F29E2EA00736941 /* FontAwesomeKit.framework */,
-				A3A80375CDE09560E82A49174FCCB581 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A3A80375CDE09560E82A49174FCCB581 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				E9FD83EF48DCC1931FF56DCD5A3FFE12 /* CoreText.framework */,
-				00B9F201B76984029E71D15533FC1A54 /* Foundation.framework */,
-				5ABD074D3DBED851F33EC216C0286715 /* UIKit.framework */,
+				B7A51557CADEABF1D4108758BC003F5B /* Foundation.framework */,
+				336D01C163E2F9825F3DC831E32AF1C4 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A8079400FF01BDC8597B2A630EA4C5F9 /* IonIcons */ = {
+		8C2E51C860691E40C709E174D8D55F7B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3EB7550CC7AEBA77CB232650F508E88D /* FAKIonIcons.h */,
-				8CDEE6CC6C21B1B4B3B9F2BF6E4F26F4 /* FAKIonIcons.m */,
-				F4FE86090E7785A0C7BE2C3EF54B453D /* Resources */,
+				FFA20F4B397315809C634B707530FFC1 /* ionicons.ttf */,
 			);
-			name = IonIcons;
-			sourceTree = "<group>";
-		};
-		C0E250332C92A132C17025315EB6FD59 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EC1FA68A09ED74A4CDB428C830382FF4 /* FontAwesomeKit.framework */,
-				46B65C3605706C5BC67AAAAB4FE3B7EE /* Pods_SimpleMBProgressHUD_Example.framework */,
-				602ED85055F840CC57CBE38BA62A2F86 /* Pods_SimpleMBProgressHUD_Tests.framework */,
-				9856FB438DC219802D047A1D8E648BF8 /* SimpleMBProgressHUD.framework */,
-			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CAA301ED40C1D9252B2D600C618BDA9D /* Support Files */ = {
@@ -275,25 +258,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SimpleMBProgressHUD";
-			sourceTree = "<group>";
-		};
-		CCB8429A9086058FA22F64D1C0816961 /* FontAwesomeKit */ = {
-			isa = PBXGroup;
-			children = (
-				8DF4472832BA5B6AD3FCC65286DE4A19 /* Core */,
-				A8079400FF01BDC8597B2A630EA4C5F9 /* IonIcons */,
-				099E1AB73CBACB214DE48E1BA47EB7C8 /* Support Files */,
-			);
-			name = FontAwesomeKit;
-			path = FontAwesomeKit;
-			sourceTree = "<group>";
-		};
-		D4B2DA62A0B401F4562793C03940650F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CCB8429A9086058FA22F64D1C0816961 /* FontAwesomeKit */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		DF304E93E832A863C9E57F051A31EBAF /* SimpleMBProgressHUD */ = {
@@ -324,12 +288,12 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F4FE86090E7785A0C7BE2C3EF54B453D /* Resources */ = {
+		EFB67C17F18FB75AE2832EB33A928F74 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AAE59CF539E544B9FD5FA6EDABC448C3 /* ionicons.ttf */,
+				FB352FC950C389F722515371BE2770ED /* SimpleFontAwesomeKit */,
 			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F8E6380DC90FFC01845559A8C6DDF34C /* MBProgressHUD+Expand */ = {
@@ -340,6 +304,20 @@
 			);
 			name = "MBProgressHUD+Expand";
 			path = "MBProgressHUD+Expand";
+			sourceTree = "<group>";
+		};
+		FB352FC950C389F722515371BE2770ED /* SimpleFontAwesomeKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CB77C7162AA89340EEA7DE5C717F1 /* FAKIcon.h */,
+				0BC53AB2EFFEF9EE9BDC69CD644C3D38 /* FAKIcon.m */,
+				44C7A7F5F96537CFAF771077E1E2EEF7 /* FAKIonIcons.h */,
+				FD76092DE1B71BDB2842006471305535 /* FAKIonIcons.m */,
+				8C2E51C860691E40C709E174D8D55F7B /* Resources */,
+				79AD7807F69B71BA04A2584CECB6A99E /* Support Files */,
+			);
+			name = SimpleFontAwesomeKit;
+			path = SimpleFontAwesomeKit;
 			sourceTree = "<group>";
 		};
 		FD036E6A406626C60EDA415E6488C2E2 /* Pods-SimpleMBProgressHUD_Example */ = {
@@ -363,21 +341,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E14BDFBC56181FFEC17186D23F25798 /* Headers */ = {
+		34C3F77A0B507B016EFD0DAB81F6E1A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39C7A794E239A19382E09B80F37EA346 /* MBProgressHUD+Expand.h in Headers */,
-				0E9B4A18E7EB486E1A38D14C27B9FA4A /* MBProgressHUD.h in Headers */,
-				BE4F2D0339FC8EF1A8C1DBCFF302A2EF /* SimpleMBProgressHUD-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E66F518A8500F92EEAA3197B54A6C6A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC30DC30DDBE96C5D090756ADC2E813E /* Pods-SimpleMBProgressHUD_Example-umbrella.h in Headers */,
+				1640A8C66033C7611E6F756D1A4FA46F /* FAKIcon.h in Headers */,
+				BB1D2971655FBDF02491612BE761D7E1 /* FAKIonIcons.h in Headers */,
+				34CF40FB3E5B5FD27FAD3F06CFFFE49B /* SimpleFontAwesomeKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,36 +359,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F352CAFD6C7D8A6E92744DD41FCC60D /* Headers */ = {
+		D8EC142BCA0D46DD2C626ADA2197BBEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C968198854F568BB044F2C797E5D0819 /* FAKIcon.h in Headers */,
-				D7240C95290E22DCF232062E33A138E0 /* FAKIonIcons.h in Headers */,
-				F3A9A579090807A4E654A20F5EF6E476 /* FontAwesomeKit-umbrella.h in Headers */,
+				8D48A1011AA4F2FEC4F54E8285192CC8 /* Pods-SimpleMBProgressHUD_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D59CCF2BE3273A1D04B0E3765C2717 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F716BB73255FF7B97BA9CA1E47EC0F46 /* MBProgressHUD+Expand.h in Headers */,
+				616BBD5535A2A8B603332921767C3204 /* MBProgressHUD.h in Headers */,
+				B957B06B243C43047D168ECF0C0FEE98 /* SimpleMBProgressHUD-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		39CB9244211EBD296A1A51BB1F4EBC8A /* Pods-SimpleMBProgressHUD_Example */ = {
+		202E83E804F0BD5DF9C3697EB9CB02F3 /* SimpleFontAwesomeKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27BAEF18806DA49CAF7E5221ED7DFF16 /* Build configuration list for PBXNativeTarget "Pods-SimpleMBProgressHUD_Example" */;
+			buildConfigurationList = 1F15FF6120046017B04B3D10B7698C46 /* Build configuration list for PBXNativeTarget "SimpleFontAwesomeKit" */;
 			buildPhases = (
-				66EDE373239E169AEA6F727D46D396B2 /* Sources */,
-				71ED747C84F2F3611DEC9CB973777BE3 /* Frameworks */,
-				6E66F518A8500F92EEAA3197B54A6C6A /* Headers */,
+				FF21C51DF1C3F676A57C23300F82B180 /* Sources */,
+				B227BF1E447F1C9ADAD2210E8DF3D2BC /* Frameworks */,
+				34C3F77A0B507B016EFD0DAB81F6E1A0 /* Headers */,
+				5E0115A0893A81823D7C56014F738F00 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9D778374C18883652F917EBDFB320D52 /* PBXTargetDependency */,
-				0DFE3E44E2E9AEE0BBFC8F1214666218 /* PBXTargetDependency */,
 			);
-			name = "Pods-SimpleMBProgressHUD_Example";
-			productName = "Pods-SimpleMBProgressHUD_Example";
-			productReference = 46B65C3605706C5BC67AAAAB4FE3B7EE /* Pods_SimpleMBProgressHUD_Example.framework */;
+			name = SimpleFontAwesomeKit;
+			productName = SimpleFontAwesomeKit;
+			productReference = EE50B17650CE6F4660574B6872CAAA58 /* SimpleFontAwesomeKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3C33CBA4302E38AEA2FD1B0BA7B46366 /* Pods-SimpleMBProgressHUD_Tests */ = {
@@ -435,43 +412,44 @@
 			);
 			name = "Pods-SimpleMBProgressHUD_Tests";
 			productName = "Pods-SimpleMBProgressHUD_Tests";
-			productReference = 602ED85055F840CC57CBE38BA62A2F86 /* Pods_SimpleMBProgressHUD_Tests.framework */;
+			productReference = EFAFCDEBDCFE69740AA941420530C07F /* Pods_SimpleMBProgressHUD_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		55ED37F967A56989C2D2F8DF0710085D /* SimpleMBProgressHUD */ = {
+		9E63D90E2D3C9571A599BAB52B51015E /* SimpleMBProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C8573872D8FE3B1DE43744846A6EBAE /* Build configuration list for PBXNativeTarget "SimpleMBProgressHUD" */;
+			buildConfigurationList = 72373F2E3BB77BFD317D40AAD9CDEDF5 /* Build configuration list for PBXNativeTarget "SimpleMBProgressHUD" */;
 			buildPhases = (
-				81A188874919739F5CB6CB1653FFBA71 /* Sources */,
-				E888F0A2312F7F627AC4935903BC7B1E /* Frameworks */,
-				0E14BDFBC56181FFEC17186D23F25798 /* Headers */,
+				4C26D79B11BCD5AD07088F9213A37A9D /* Sources */,
+				DF8A5193E198CE9710A4080B91102F95 /* Frameworks */,
+				F9D59CCF2BE3273A1D04B0E3765C2717 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DFBEB6AD194D2F4ABF6605464384EBD6 /* PBXTargetDependency */,
+				A82225EF4DCBB5C093E9FD47518ECC2E /* PBXTargetDependency */,
 			);
 			name = SimpleMBProgressHUD;
 			productName = SimpleMBProgressHUD;
-			productReference = 9856FB438DC219802D047A1D8E648BF8 /* SimpleMBProgressHUD.framework */;
+			productReference = 1FDF3893E8E342EA6CF7DA8937BD40DE /* SimpleMBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		86832B91E801BCA93835CF7A9B3E1167 /* FontAwesomeKit */ = {
+		CAF44D1E847E0D948BEA08865C97EE4D /* Pods-SimpleMBProgressHUD_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BBF662945CBC460C2C9A68651DDC029 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
+			buildConfigurationList = 7AE5F8989459ED1CA6EE8A49346B635B /* Build configuration list for PBXNativeTarget "Pods-SimpleMBProgressHUD_Example" */;
 			buildPhases = (
-				FB4FFFB4EFDFC6C94F44C5646B2310AF /* Sources */,
-				59A24969D39BCC0A13CB43EBE8E1AD57 /* Frameworks */,
-				9F352CAFD6C7D8A6E92744DD41FCC60D /* Headers */,
-				46F451E6A0E9912D6DAE3B7A6AA0EEF5 /* Resources */,
+				6FF5D097B3F9323F19722476E51E0E73 /* Sources */,
+				BD506AAFF979C1FC96CF96582F968BA5 /* Frameworks */,
+				D8EC142BCA0D46DD2C626ADA2197BBEE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6478516D3991E9609816EC2F3DB7C0EF /* PBXTargetDependency */,
+				6C1B55EA011CAA2F6176AC2B559B8EAB /* PBXTargetDependency */,
 			);
-			name = FontAwesomeKit;
-			productName = FontAwesomeKit;
-			productReference = EC1FA68A09ED74A4CDB428C830382FF4 /* FontAwesomeKit.framework */;
+			name = "Pods-SimpleMBProgressHUD_Example";
+			productName = "Pods-SimpleMBProgressHUD_Example";
+			productReference = A75C874D02A22BF7E7C925E6EC678ECB /* Pods_SimpleMBProgressHUD_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -491,45 +469,45 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C0E250332C92A132C17025315EB6FD59 /* Products */;
+			productRefGroup = 6D718D5BE9A97FEE63700881B5023FD5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86832B91E801BCA93835CF7A9B3E1167 /* FontAwesomeKit */,
-				39CB9244211EBD296A1A51BB1F4EBC8A /* Pods-SimpleMBProgressHUD_Example */,
+				CAF44D1E847E0D948BEA08865C97EE4D /* Pods-SimpleMBProgressHUD_Example */,
 				3C33CBA4302E38AEA2FD1B0BA7B46366 /* Pods-SimpleMBProgressHUD_Tests */,
-				55ED37F967A56989C2D2F8DF0710085D /* SimpleMBProgressHUD */,
+				202E83E804F0BD5DF9C3697EB9CB02F3 /* SimpleFontAwesomeKit */,
+				9E63D90E2D3C9571A599BAB52B51015E /* SimpleMBProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46F451E6A0E9912D6DAE3B7A6AA0EEF5 /* Resources */ = {
+		5E0115A0893A81823D7C56014F738F00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96C5E898541CEDCA7ACA7BFAB01E7BBA /* ionicons.ttf in Resources */,
+				E647A6BE348FC327D28D8F9C302BD7E8 /* ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		66EDE373239E169AEA6F727D46D396B2 /* Sources */ = {
+		4C26D79B11BCD5AD07088F9213A37A9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06A26A9492E3D6CAF53BF8F383A9EC02 /* Pods-SimpleMBProgressHUD_Example-dummy.m in Sources */,
+				810EADEAE3D5CB2C9554F26B71A2C86C /* MBProgressHUD+Expand.m in Sources */,
+				FD5C299234B765501D66D9AF62A78C42 /* MBProgressHUD.m in Sources */,
+				4975490B96B40298417A3A4BF26A74D1 /* SimpleMBProgressHUD-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81A188874919739F5CB6CB1653FFBA71 /* Sources */ = {
+		6FF5D097B3F9323F19722476E51E0E73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F502DA7F2ED59BD28BBD7224F5F2ACD0 /* MBProgressHUD+Expand.m in Sources */,
-				6A6F70CD97541314C8004F6755550B75 /* MBProgressHUD.m in Sources */,
-				2F9F543317E2B239E6F414615F706E90 /* SimpleMBProgressHUD-dummy.m in Sources */,
+				5D271039548BA0263436ED2D2A774F26 /* Pods-SimpleMBProgressHUD_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,36 +519,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB4FFFB4EFDFC6C94F44C5646B2310AF /* Sources */ = {
+		FF21C51DF1C3F676A57C23300F82B180 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6B55E53F3381842315E2CF37FFECE9 /* FAKIcon.m in Sources */,
-				815ED01F8659BB6D036A73C6A477DD9A /* FAKIonIcons.m in Sources */,
-				E3AE989BA28A8DD878511F2BE2727038 /* FontAwesomeKit-dummy.m in Sources */,
+				B2205836158FAC7E642C4D8CA71D83FD /* FAKIcon.m in Sources */,
+				885A54F749E16DAB653D939A3B2ABF55 /* FAKIonIcons.m in Sources */,
+				05A3B2DCFBC8F52A61B3F74D7E34985C /* SimpleFontAwesomeKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DFE3E44E2E9AEE0BBFC8F1214666218 /* PBXTargetDependency */ = {
+		6478516D3991E9609816EC2F3DB7C0EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleFontAwesomeKit;
+			target = 202E83E804F0BD5DF9C3697EB9CB02F3 /* SimpleFontAwesomeKit */;
+			targetProxy = 48F88C26ABFE31C44FA77FF28FCB8A7E /* PBXContainerItemProxy */;
+		};
+		6C1B55EA011CAA2F6176AC2B559B8EAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleMBProgressHUD;
-			target = 55ED37F967A56989C2D2F8DF0710085D /* SimpleMBProgressHUD */;
-			targetProxy = 71ECF8AE16D47F36204FEAB14CD074F2 /* PBXContainerItemProxy */;
+			target = 9E63D90E2D3C9571A599BAB52B51015E /* SimpleMBProgressHUD */;
+			targetProxy = CCB9BB23CCF751FC27A205AE97ED9F42 /* PBXContainerItemProxy */;
 		};
-		9D778374C18883652F917EBDFB320D52 /* PBXTargetDependency */ = {
+		A82225EF4DCBB5C093E9FD47518ECC2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FontAwesomeKit;
-			target = 86832B91E801BCA93835CF7A9B3E1167 /* FontAwesomeKit */;
-			targetProxy = CF3A62ECD3DA5A1C655779E3E934C70C /* PBXContainerItemProxy */;
-		};
-		DFBEB6AD194D2F4ABF6605464384EBD6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FontAwesomeKit;
-			target = 86832B91E801BCA93835CF7A9B3E1167 /* FontAwesomeKit */;
-			targetProxy = 8E51A7D0E33A69D8CC5278772A631DF1 /* PBXContainerItemProxy */;
+			name = SimpleFontAwesomeKit;
+			target = 202E83E804F0BD5DF9C3697EB9CB02F3 /* SimpleFontAwesomeKit */;
+			targetProxy = BBFB324EE7A477DCB7E313C7572B90D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -659,45 +637,9 @@
 			};
 			name = Debug;
 		};
-		42D8ED4BE99C1937E7AB0EE98238A347 /* Debug */ = {
+		444322D6D8039C12BD3B2104BADC4EAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E451D55019B575512B538FF2F8BDDF3D /* Pods-SimpleMBProgressHUD_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleMBProgressHUD_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleMBProgressHUD_Example/Pods-SimpleMBProgressHUD_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SimpleMBProgressHUD_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		658DCF8F20AEAAFA3C3B82CC61767125 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8A78B826B08287C95EA9DAC37107192 /* Pods-SimpleMBProgressHUD_Example.release.xcconfig */;
+			baseConfigurationReference = CCA86ED741ED732EBC3F22EB2628F374 /* SimpleMBProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -711,18 +653,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleMBProgressHUD_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleMBProgressHUD/SimpleMBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleMBProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleMBProgressHUD_Example/Pods-SimpleMBProgressHUD_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SimpleMBProgressHUD/SimpleMBProgressHUD.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SimpleMBProgressHUD_Example;
+				PRODUCT_NAME = SimpleMBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -775,41 +713,9 @@
 			};
 			name = Release;
 		};
-		7B81528D6899F5808795263840FB240C /* Release */ = {
+		841F9255BC0F2EE4F263DBBCC6A3CECB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCA86ED741ED732EBC3F22EB2628F374 /* SimpleMBProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleMBProgressHUD/SimpleMBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleMBProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleMBProgressHUD/SimpleMBProgressHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SimpleMBProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD6890A65EB2BBBE215566E238C57D26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCA86ED741ED732EBC3F22EB2628F374 /* SimpleMBProgressHUD.xcconfig */;
+			baseConfigurationReference = C39E086089B0CC0F35809BC5923E0CA4 /* SimpleFontAwesomeKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -823,14 +729,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleMBProgressHUD/SimpleMBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleMBProgressHUD/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleFontAwesomeKit/SimpleFontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleFontAwesomeKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleMBProgressHUD/SimpleMBProgressHUD.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SimpleFontAwesomeKit/SimpleFontAwesomeKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SimpleMBProgressHUD;
+				PRODUCT_NAME = SimpleFontAwesomeKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -839,41 +745,9 @@
 			};
 			name = Debug;
 		};
-		EEBDC02FE5F0A18FB403B53BF72B7BC3 /* Release */ = {
+		8C80E8FD80B9238D5842ABB7BF214BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A69D428E6AB8CE34AC2A0DFFCA91C36F /* FontAwesomeKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FontAwesomeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F28D220BE6B863B64FF466B16ED96603 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A69D428E6AB8CE34AC2A0DFFCA91C36F /* FontAwesomeKit.xcconfig */;
+			baseConfigurationReference = E451D55019B575512B538FF2F8BDDF3D /* Pods-SimpleMBProgressHUD_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -887,14 +761,118 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleMBProgressHUD_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleMBProgressHUD_Example/Pods-SimpleMBProgressHUD_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleMBProgressHUD_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7F020F4D0553AD945D3F2B4311136A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39E086089B0CC0F35809BC5923E0CA4 /* SimpleFontAwesomeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleFontAwesomeKit/SimpleFontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleFontAwesomeKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SimpleFontAwesomeKit/SimpleFontAwesomeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleFontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0881A2ED8B01D3E2E7E98399F0CC26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A78B826B08287C95EA9DAC37107192 /* Pods-SimpleMBProgressHUD_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleMBProgressHUD_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleMBProgressHUD_Example/Pods-SimpleMBProgressHUD_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleMBProgressHUD_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F346BB3E10BE9F1A10C464B55E50EF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA86ED741ED732EBC3F22EB2628F374 /* SimpleMBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleMBProgressHUD/SimpleMBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleMBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleMBProgressHUD/SimpleMBProgressHUD.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FontAwesomeKit;
+				PRODUCT_NAME = SimpleMBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -942,11 +920,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27BAEF18806DA49CAF7E5221ED7DFF16 /* Build configuration list for PBXNativeTarget "Pods-SimpleMBProgressHUD_Example" */ = {
+		1F15FF6120046017B04B3D10B7698C46 /* Build configuration list for PBXNativeTarget "SimpleFontAwesomeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42D8ED4BE99C1937E7AB0EE98238A347 /* Debug */,
-				658DCF8F20AEAAFA3C3B82CC61767125 /* Release */,
+				841F9255BC0F2EE4F263DBBCC6A3CECB /* Debug */,
+				A7F020F4D0553AD945D3F2B4311136A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -960,20 +938,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BBF662945CBC460C2C9A68651DDC029 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
+		72373F2E3BB77BFD317D40AAD9CDEDF5 /* Build configuration list for PBXNativeTarget "SimpleMBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F28D220BE6B863B64FF466B16ED96603 /* Debug */,
-				EEBDC02FE5F0A18FB403B53BF72B7BC3 /* Release */,
+				F346BB3E10BE9F1A10C464B55E50EF84 /* Debug */,
+				444322D6D8039C12BD3B2104BADC4EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C8573872D8FE3B1DE43744846A6EBAE /* Build configuration list for PBXNativeTarget "SimpleMBProgressHUD" */ = {
+		7AE5F8989459ED1CA6EE8A49346B635B /* Build configuration list for PBXNativeTarget "Pods-SimpleMBProgressHUD_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD6890A65EB2BBBE215566E238C57D26 /* Debug */,
-				7B81528D6899F5808795263840FB240C /* Release */,
+				8C80E8FD80B9238D5842ABB7BF214BB8 /* Debug */,
+				B0881A2ED8B01D3E2E7E98399F0CC26A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

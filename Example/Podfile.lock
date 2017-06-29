@@ -1,9 +1,7 @@
 PODS:
-  - FontAwesomeKit/Core (2.2.1)
-  - FontAwesomeKit/IonIcons (2.2.1):
-    - FontAwesomeKit/Core
+  - SimpleFontAwesomeKit (0.0.1)
   - SimpleMBProgressHUD (0.0.1):
-    - FontAwesomeKit/IonIcons (~> 2.2.0)
+    - SimpleFontAwesomeKit
 
 DEPENDENCIES:
   - SimpleMBProgressHUD (from `../`)
@@ -13,8 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
-  SimpleMBProgressHUD: b812d8a1e51c19180aaf9adc364b0563359deda9
+  SimpleFontAwesomeKit: 5ea65cd89ef8e701cb72686cec6adffe7e7fec32
+  SimpleMBProgressHUD: 5dd6e5bdec5d40c307bf7fa16e54b996c3108858
 
 PODFILE CHECKSUM: 4dd504ab8ccd6c359dc026af139652bd35930282
 
