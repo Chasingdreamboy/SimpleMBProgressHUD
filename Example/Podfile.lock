@@ -1,6 +1,6 @@
 PODS:
   - SimpleFontAwesomeKit (0.0.1)
-  - SimpleMBProgressHUD (0.0.1):
+  - SimpleMBProgressHUD (0.0.3):
     - SimpleFontAwesomeKit
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SimpleFontAwesomeKit: 5ea65cd89ef8e701cb72686cec6adffe7e7fec32
-  SimpleMBProgressHUD: 5dd6e5bdec5d40c307bf7fa16e54b996c3108858
+  SimpleMBProgressHUD: a1d4bfc2668ccb27873c06485890fbdce5c0b903
 
 PODFILE CHECKSUM: 4dd504ab8ccd6c359dc026af139652bd35930282
 
